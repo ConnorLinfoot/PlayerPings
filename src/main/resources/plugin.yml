@@ -1,0 +1,13 @@
+name: PlayerPings
+description: Easily view player pings.
+main: com.connorlinfoot.playerpings.PlayerPings
+version: ${project.version}
+commands:
+  ping:
+permissions:
+  playerpings.ping.me:
+    default: true
+  playerpings.ping.other:
+    default: op
+  playerpings.ping.gui:
+    default: op
